@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <DefaultLanguage>en-US</DefaultLanguage>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>SkyCD.Contracts.dll</AssemblyName>
+    <AssemblyName>SkyCD.Contracts</AssemblyName>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/SkyCD/SkyCD.Contracts.dll</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
