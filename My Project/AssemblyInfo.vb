@@ -11,9 +11,6 @@ Imports System.Reflection
 <Assembly: AssemblyTitle("SkyCD Contracts")>
 <Assembly: AssemblyDescription("Some Interfaces and structures that are used by SkyCD")>
 <Assembly: AssemblyCompany("SkyCD")>
-<Assembly: AssemblyProduct("")>
-<Assembly: AssemblyCopyright("")>
-<Assembly: AssemblyTrademark("")> 
 <Assembly: NeutralResourcesLanguage("en")>
 
 ' Version information for an assembly consists of the following four values:
@@ -27,5 +24,5 @@ Imports System.Reflection
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.*")>
+<Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
