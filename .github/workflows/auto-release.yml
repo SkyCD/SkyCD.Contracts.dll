@@ -3,6 +3,7 @@ name: Automatic release
 on:
   schedule:
     - cron: '21 12 28 * *'
+  workflow_dispatch:
 
 jobs:
   create-release:
