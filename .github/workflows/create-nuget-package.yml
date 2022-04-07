@@ -24,11 +24,8 @@ jobs:
     - name: Test
       run: dotnet test --no-build --configuration Release
 
-    - name: Determine version
-      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
-
     - name: Pack
-      run: dotnet pack --output ./artifacts --configuration Release -p:Version=$VERSION
+      run: dotnet pack --output ./artifacts --configuration Release -p:Version=$(git describe --tags --dirty)
 
     - name: Preparing nuget source
       run: dotnet nuget add source --username SkyCD --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/SkyCD/index.json"
