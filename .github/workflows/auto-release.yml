@@ -1,9 +1,8 @@
 name: Automatic release
 
-on: 
-  push:
-    branches: 
-      - main
+on:
+  schedule:
+    - cron: '21 12 28 * *'
 
 jobs:
   create-release:
