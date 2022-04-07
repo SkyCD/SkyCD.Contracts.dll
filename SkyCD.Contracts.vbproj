@@ -9,6 +9,8 @@
     <RepositoryUrl>https://github.com/SkyCD/SkyCD.Contracts.dll</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>skycd, library</PackageTags>
+    <PackageId>SkyCD.Contracts.dll</PackageId>
+    <Authors>SkyCD</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DefineConstants></DefineConstants>
