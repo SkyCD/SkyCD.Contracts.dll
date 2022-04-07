@@ -10,7 +10,7 @@ Imports System.Reflection
 
 <Assembly: AssemblyTitle("SkyCD Contracts")>
 <Assembly: AssemblyDescription("Some Interfaces and structures that are used by SkyCD")>
-<Assembly: AssemblyCompany("SkyCD")>
+<Assembly: AssemblyCompany("")>
 <Assembly: NeutralResourcesLanguage("en")>
 
 ' Version information for an assembly consists of the following four values:
