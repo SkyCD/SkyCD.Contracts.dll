@@ -3,7 +3,7 @@ name: Create Nuget package
 on:
   release:
     types:
-......- published
+      - published
 
 jobs:
   build-and-publish:
