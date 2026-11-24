@@ -1,3 +1,6 @@
+> [!WARNING]
+> This legacy library was used by SkyCD 1.0. It is unsupported and is not used by SkyCD 3.0 or later. This repository is archived.
+
 [![GitHub License](https://img.shields.io/github/license/SkyCD/SkyCD.Contracts.dll)](https://github.com/SkyCD/SkyCD.Contracts.dll/blob/main/LICENSE)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SkyCD/SkyCD.Contracts.dll)](https://github.com/SkyCD/SkyCD.Contracts.dll/releases)
 
